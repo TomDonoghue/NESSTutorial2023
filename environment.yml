@@ -1,0 +1,17 @@
+name: common_oscillator_models
+channels:
+- defaults
+- conda-forge
+dependencies:
+  - "python >= 3.7"
+  - pip
+  - matplotlib
+  - numpy
+  - scipy
+  - jupyterlab
+  - nodejs
+  - ipympl
+  - ipykernel
+  - pip:
+     - spectral_connectivity
+ 
