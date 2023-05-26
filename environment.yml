@@ -1,4 +1,4 @@
-name: common_oscillator_models
+name: NESSTutorial2023 
 channels:
 - defaults
 - conda-forge
