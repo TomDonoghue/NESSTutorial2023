@@ -3,7 +3,7 @@ channels:
 - defaults
 - conda-forge
 dependencies:
-  - "python >= 3.7"
+  - "python == 3.10" # somata>sorcery>executing has node finding error in 3.12
   - pip
   - matplotlib
   - numpy
@@ -14,4 +14,6 @@ dependencies:
   - ipykernel
   - pip:
      - spectral_connectivity
+     - somata
+     - git+https://github.com/Eden-Kramer-Lab/Common_Oscillator_Models.git@python
  
