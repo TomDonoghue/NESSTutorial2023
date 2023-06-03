@@ -13,6 +13,8 @@ dependencies:
   - ipympl
   - ipykernel
   - pip:
+     - fooof
+     - neurodsp
      - spectral_connectivity
      - somata
      - git+https://github.com/Eden-Kramer-Lab/Common_Oscillator_Models.git@python
