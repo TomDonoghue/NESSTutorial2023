@@ -2,6 +2,8 @@
 
 This repository hosts materials for the "Advanced topics in the analysis of neural electrophysiology data: decomposing rhythmic and broadband components" short course, for [NESS 2023](https://symposium.nestat.org/index.html).
 
+The slides for the course are [here](https://docs.google.com/presentation/d/1WpJl8nP0swUqbdUwYPvmXec1HPUf0hXI2juuXgZ0AU0/edit?usp=sharing).
+
 ## Overview
 
 Neural electrophysiological signals reflect complex combinations of multiple underlying sources, such that traditional approaches from time-series and digital signal processing can often conflate multiple overlapping features, complicating accurate interpretations of the underlying physiology. In particular, recent methodological work has shown how the complexity of neural data – which can include multiple rhythmic features, transient events and aperiodic activity as well as interactions between these features and traversals between discrete states – requires dedicated methods to accurately measure features of interest.
