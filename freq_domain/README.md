@@ -1,31 +1,33 @@
-# Title
+# Hands-On Materials: Spectral Parameterization
 
-Words, words, words.
+These materials are hands-on tutorials and problem sets for working with spectral parameterization.
 
 ## Overview
 
-In **Part 1** we will cover an overview of the key tools, following along with the module documentation.
-
-Part 1 will use the following materials:
-- the [neurodsp module documentation](https://neurodsp-tools.github.io/neurodsp/auto_tutorials/index.html)
-- the [specparam module documentation](https://fooof-tools.github.io/fooof/auto_tutorials/index.html)
-
-In **Part 2** we will cover a tutorial including hands-on problems that explore key topics.
-
-Part 2 will use the following materials:
-- the [specparam problem set](https://github.com/fooof-tools/Tutorial)
+These materials include:
+- 00-Setup: a notebook for getting setup & started with the key tools
+- 01-SpecParamModel: a notebook for practicing fitting spectral models to example data
+- 02-Simulations: a notebook exploring using simulations to test and explore data properties and methods
+- 03-RealData: a notebook to explore using spectral parameterization on a real dataset
 
 ## Learning Goals
 
 Learning goals for this workshop include to:
 - Explore and understand the assumptions of common analysis methods, and how these relate to empirical data
 - Use hands-on, practical examples to demonstrate how common analysis methods may conflate periodic and aperiodic activity
-- Learn how to use the spectral parameterization method to measure periodic and aperiodic features from neural power spectra, including choosing appropriate parameters, doing quality control on model fits, and interpreting results
-- Apply spectral parameterization to empirical datasets, from different modalities and experimental designs
+- Learn how to use the spectral parameterization method to measure periodic and aperiodic features from neural power spectra
+- Apply spectral parameterization to empirical data
 
-## Key Tools
+## Key Tools & Resources
 
 This section of the tutorial will focus on the following modules:
+
+**specparam: Spectral Parameterization**
+
+The `specparam` module (formerly `fooof`) is an open-source Python module for parameterizing neural power spectra into periodic and aperiodic components. This module will be used for fitting spectral models, and analyzing and visualizing the results.
+
+Documentation:      https://specparam-tools.github.io
+Source Code:        https://github.com/fooof-tools/fooof
 
 **NeuroDSP: Neuro Digital Signal Processing**
 
@@ -34,9 +36,8 @@ The `neurodsp` module is a general purpose open-source Python module that includ
 Documentation:      https://neurodsp-tools.github.io/
 Source Code:        https://github.com/neurodsp-tools/neurodsp
 
-**specparam: Spectral Parameterization**
+**Oscillations Methods Project**
 
-The `specparam` module (formerly `fooof`) is an open-source Python module for parameterizing neural power spectra into periodic and aperiodic components. This module will be used for fitting spectral models, and analyzing and visualizing the results.
+The `OscillationsMethods` project is a project that explores properties of neural oscillations and how these relate to common measures, and includes visualizers and open-code for topics related to these materials.
 
-Documentation:      https://specparam-tools.github.io
-Source Code:        https://github.com/fooof-tools/fooof
+Website:            https://oscillationmethods.github.io/docs/index.html
