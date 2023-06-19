@@ -1,4 +1,4 @@
-# NESS Tutorial 2023
+# ASSC26 Tutorial
 
 This repository hosts materials for the "Advanced topics in the analysis of neural electrophysiology data: decomposing rhythmic and broadband components" short course, for [NESS 2023](https://symposium.nestat.org/index.html).
 
